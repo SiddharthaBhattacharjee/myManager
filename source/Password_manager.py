@@ -13,7 +13,7 @@ sys.path.insert(0,'./assets')
 import tableee as tb
 
 def rawbytes(s):
-    """Convert a string to raw bytes without encoding"""
+    #Converts a string to raw bytes without encoding
     outlist = []
     for cp in s:
         num = ord(cp)
